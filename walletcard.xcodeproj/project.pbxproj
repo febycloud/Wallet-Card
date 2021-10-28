@@ -16,6 +16,7 @@
 		F2A76986272A0B94002309A8 /* walletcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A76985272A0B94002309A8 /* walletcardTests.swift */; };
 		F2A76990272A0B94002309A8 /* walletcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7698F272A0B94002309A8 /* walletcardUITests.swift */; };
 		F2A76992272A0B94002309A8 /* walletcardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A76991272A0B94002309A8 /* walletcardUITestsLaunchTests.swift */; };
+		F2A7699F272A0F23002309A8 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7699E272A0F23002309A8 /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F2A7698B272A0B94002309A8 /* walletcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A7698F272A0B94002309A8 /* walletcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletcardUITests.swift; sourceTree = "<group>"; };
 		F2A76991272A0B94002309A8 /* walletcardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletcardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2A7699E272A0F23002309A8 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				F2A7696F272A0B94002309A8 /* walletcardApp.swift */,
 				F2A76971272A0B94002309A8 /* ContentView.swift */,
+				F2A7699E272A0F23002309A8 /* ImagePickerView.swift */,
 				F2A76973272A0B94002309A8 /* Assets.xcassets */,
 				F2A76978272A0B94002309A8 /* Persistence.swift */,
 				F2A7697A272A0B94002309A8 /* walletcard.xcdatamodeld */,
@@ -267,6 +270,7 @@
 				F2A76972272A0B94002309A8 /* ContentView.swift in Sources */,
 				F2A7697C272A0B94002309A8 /* walletcard.xcdatamodeld in Sources */,
 				F2A76970272A0B94002309A8 /* walletcardApp.swift in Sources */,
+				F2A7699F272A0F23002309A8 /* ImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +434,7 @@
 				DEVELOPMENT_TEAM = 56AGUN8975;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need permission of using camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +464,7 @@
 				DEVELOPMENT_TEAM = 56AGUN8975;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need permission of using camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
